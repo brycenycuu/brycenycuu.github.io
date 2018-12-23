@@ -5,13 +5,13 @@
 		    	<li>
 		    		<div class="prolistdate">{{ post.mydate }}</div>
 		    		<div class="prolist"><a href="{{ post.url }}">{{ post.title }}</a></div>
-		    		<div class="prolistintro">{{ post.prointro }}</div><br>
+		    		<div class="prolistintro">{{ post.prointro }}</div>
 		    	</li>
 		    </ul>
     	{% endif %}
     {% endfor %}
 
-    <h2 line-height="120%">Course-based</h2>
+    <h3 line-height="140%">Course-based</h3>
 
     {% for post in site.posts %}
     	{% if post.categories contains 'projects' and post.mytype contains 'course' %}
