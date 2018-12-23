@@ -21,6 +21,7 @@ notes: active
 				{% endif %}
 
 				{% if page.categories contains 'videos' and page.bilibiliurl %}
+				<iframe src="//player.bilibili.com/player.html?aid=25375358&cid=43102785&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 					<p><iframe src="//player.bilibili.com/player.html?"{{ page.bilibiliurl }} scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></p>
 					<p><a href="https://www.bilibili.com/video/av{{ page.bilibiliav }}">Watch this video on Bilibili</a><p/>
 				{% endif %}
