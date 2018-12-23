@@ -1,6 +1,6 @@
 <div class="projectlist">
     {% for post in site.posts %}
-    	{% if post.categories contains 'projects' and post.mytype contains 'normal' %}
+    	{% if post.categories contains 'projects' and post.mytype contains 'norm' %}
 		    <ul class="listprojects list-unstyled">
 		    	<li>
 		    		<div class="prolistdate">{{ post.mydate }}</div>
@@ -14,7 +14,7 @@
     <h3 line-height="140%">Course-based</h3>
 
     {% for post in site.posts %}
-    	{% if post.categories contains 'projects' and post.mytype contains 'course' %}
+    	{% if post.categories contains 'projects' and post.mytype contains 'course2' %}
 		    <ul class="listprojects list-unstyled">
 		    	<li>
 		    		<div class="prolistdate">{{ post.mydate }}</div>
