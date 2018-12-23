@@ -36,7 +36,7 @@ ul.listnotes { margin: 0 auto; }
 ul.listnotes li {line-height: 30px; } 
 
 /* Projects */
-.projectlist { width: 600px; margin: 0 auto; }
+.projectlist { width: 600px; margin: 0; }
 .prolist {font-size: 18px; margin: 170px; }
 .prolistdate {font-size: 14px; margin: 170px; }
 ul.listprojects { margin: 0 auto; }
