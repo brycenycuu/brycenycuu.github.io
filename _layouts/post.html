@@ -7,16 +7,24 @@ notes: active
 		<div class="note single">
 			<h1 class="title">{{ page.title }}</h1>
 			
-			<h2 class="date"><info datetime="{{ page.date }}">
-				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
-			</info></h2>
+			{% if page.hasdate %}
+				<h2 class="date"><info datetime="{{ page.date }}">
+					{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
+				</info></h2>
+			{% endif %}
+
 			<!-- Post content -->
 			<div class="notebody">
 				{% if page.categories contains 'videos' %}
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/3_vMl9Yhqjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="337.5" src="{{ page.youtubeurl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				{% endif %}
+
 				{{ content }}
+
+				<a href="{{ page.youtubeurl }}">Watch this video on YouTube</a>
 			</div>
+
+
 			<!-- Post info -->
 			<div class="noteinfo">
 			<!-- include some categories and tags maybe? -->
