@@ -4,22 +4,30 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Notes from Jonathan McGlone</title>
- <link href="http://jmcglone.com/notes/atom.xml" rel="self"/>
- <link href="http://jmcglone.com/notes/"/>
+ <title>Notes from Di Wu</title>
+ <link href="http://diwu.tech/notes/atom.xml" rel="self"/>
+ <link href="http://diwu.tech/notes/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://jmcglone.com/notes/</id>
+ <id>http://diwu.tech/notes/</id>
  <author>
-   <name>Jonathan McGlone</name>
-   <email>jwmcglone@gmail.com</email>
+   <name>Di Wu</name>
+   <email>dw2834@columbia.edu</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://jmcglone.com{{ post.url }}"/>
+   <link href="http://diwu.tech{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://jmcglone.com/notes{{ post.id }}</id>
+   {% if post.categories contains 'video' %}
+   		<id>http://diwu.tech/videos{{ post.id }}</id>
+   {% endif %}
+   {% if post.categories contains 'project' %}
+   		<id>http://diwu.tech/projects{{ post.id }}</id>
+   {% endif %}
+   {% if post.categories contains 'notes' %}
+   		<id>http://diwu.tech/notes{{ post.id }}</id>
+   {% endif %}
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
