@@ -12,6 +12,9 @@ notes: active
 			</info></h2>
 			<!-- Post content -->
 			<div class="notebody">
+				{% if page.categories contains 'videos' %}
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/3_vMl9Yhqjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				{% endif %}
 				{{ content }}
 			</div>
 			<!-- Post info -->
