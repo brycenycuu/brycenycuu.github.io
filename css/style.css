@@ -46,7 +46,7 @@ ul.listprojects li {line-height: 30px; }
 /* Videos */
 .videolist { width: 600px; margin: 0 auto; }
 .vidlist {font-size: 20px; line-height: 140%; }
-.vidlistdate {font-size: 16px; line-height: 180%; }
+.vidlistheadname {font-size: 16px; line-height: 180%; }
 .vidlistintro {font-size: 14px; color: #999999; font-style: italic; line-height: 145%; margin-top: 4px;}
 ul.listvideos { margin: 0 auto; }
 ul.listvideos li {line-height: 30px; } 
