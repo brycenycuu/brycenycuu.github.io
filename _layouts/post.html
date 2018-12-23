@@ -16,12 +16,12 @@ notes: active
 			<!-- Post content -->
 			<div class="notebody">
 				{% if page.categories contains 'videos' %}
-					<iframe width="560" height="337.5" src="{{ page.youtubeurl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="337.5" src="https://www.youtube.com/embed/{{ page.youtubeurl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				{% endif %}
 
 				{{ content }}
 
-				<a href="{{ page.youtubeurl }}">Watch this video on YouTube</a>
+				<a href="https://www.youtube.com/watch?v={{ page.youtubeurl }}">Watch this video on YouTube</a>
 			</div>
 
 
