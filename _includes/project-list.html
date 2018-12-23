@@ -5,21 +5,22 @@
 		    	<li>
 		    		<table style="position:relative">
 		    			<tr>
-		    				<td style="width: 100px">
-		    					<img class="img-responsive" src="{{ post.cover }}" style="top:0;right:0" />
+		    				<td style="width: 60px; top:0; right:0">
+		    					<img class="img-responsive" src="{{ post.cover }}" />
 		    				</td>
-		    				<td>
+		    				<td style="top:0; left:0">
 		    					<div class="prolist"><a href="{{ post.url }}">{{ post.title }}</a></div>
 		    					<div class="prolistdate">{{ post.mydate }}</div>
 		    				</td>
 		    			</tr>
 		    		</table>
-
+		    		<br>
+		    		<br>
 		    		<!-- </table><img class="img-responsive" src="{{ post.cover }}"/>
 		    		<div class="prolist"><a href="{{ post.url }}">{{ post.title }}</a></div>
 		    		<div class="prolistdate">{{ post.mydate }}</div> -->
 		    	</li>
-		      <li><span>{{ post.date | date_to_string }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+		      <!-- <li><span>{{ post.date | date_to_string }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li> -->
 		    </ul>
     	{% endif %}
     {% endfor %}
