@@ -1,2 +1,11 @@
-permalink: /notes/:year/:month/:day/:title
+{% if post.categories contains 'video' %}
+  permalink: /videos/:year/:month/:day/:title
+{% endif %}
+{% if post.categories contains 'notes' %}
+  permalink: /notes/:year/:month/:day/:title
+{% endif %}
+{% if post.categories contains 'project' %}
+  permalink: /projects/:year/:month/:day/:title
+{% endif %}
+
 markdown: kramdown
