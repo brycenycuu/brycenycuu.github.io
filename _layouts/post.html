@@ -21,8 +21,8 @@ notes: active
 				{% endif %}
 
 				{% if page.categories contains 'videos' and page.bilibiliurl %}
-				&lt;<embed height=&quot;452&quot; width=&quot;544&quot; src=&quot;https://static-s.bilibili.com/miniloader.swf?aid=3128485&quot;&gt;&lt;/embed>&gt;
-					<p><iframe src="//player.bilibili.com/player.html?"{{ page.bilibiliurl }} scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></p>
+				
+					<p><iframe src="//player.bilibili.com/player.html?{{ page.bilibiliurl }}"" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></p>
 					<p><a href="https://www.bilibili.com/video/av{{ page.bilibiliav }}">Watch this video on Bilibili</a><p/>
 				{% endif %}
 
