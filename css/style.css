@@ -37,8 +37,8 @@ ul.listnotes li {line-height: 30px; }
 
 /* Projects */
 .projectlist { width: 600px; margin: 0 auto; }
-.prolist {font-size: 22px; margin-left: 90px; }
-.prolistdate {font-size: 18px; margin-left: 90px; }
+.prolist {font-size: 20px; margin-left: 90px; }
+.prolistdate {font-size: 16px; margin-left: 90px; }
 ul.listprojects { margin: 0 auto; }
 ul.listprojects li {line-height: 30px; } 
 
