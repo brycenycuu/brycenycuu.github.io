@@ -1,0 +1,12 @@
+<div class="notelist">
+    {% for post in site.posts %}
+	    {% if post.categories contains 'articles' %}
+		    <ul class="listarticles list-unstyled">
+		    	<li>
+		    		<div class="artilistdate">{{ post.mydate }}</div>
+		    		<div class="artilist"><a href="{{ post.url }}">{{ post.title }}</a></div>
+		    	</li>
+		    </ul>
+		{% endif %}
+    {% endfor %}
+</div><!--/.notelist -->

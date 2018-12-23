@@ -51,6 +51,22 @@ ul.listnotes li {line-height: 30px; }
 ul.listprojects { margin: 0 auto; }
 ul.listprojects li {line-height: 30px; } 
 
+/* Articles */
+.artitem { width: 100%; margin: 0 auto 60px auto; line-height: 28px;}
+.artitem .title { padding: 100px 20px 10px 20px; width: 100%; height: 60%; margin-bottom: 40px; background: #efefef; color: #444444; }
+.artitem .title h1 { font-size: 46px; color: #181818; }
+.artitem p { margin: 0 0 1em;  }
+.artitem img { border: solid 1px #d5d5d5; border-radius: 4px; margin: 40px auto; display: block; }
+.artitem .notes { font-size: 12px; }
+.artitem .notes h2 { font-size: 14px; }
+
+.articlelist { width: 600px; margin: 0 auto; }
+.artilist {font-size: 20px; line-height: 140%; }
+.artilistdate {font-size: 16px; line-height: 180%; }
+.artilistintro {font-size: 14px; color: #999999; font-style: italic; line-height: 145%; margin-top: 4px;}
+ul.listarticles { margin: 0 auto; }
+ul.listarticles li {line-height: 30px; } 
+
 /* Videos */
 .videolist { width: 600px; margin: 0 auto; }
 .vidlist {font-size: 20px; line-height: 140%; }
