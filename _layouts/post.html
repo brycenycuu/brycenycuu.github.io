@@ -33,13 +33,13 @@ notes: active
 			<!-- Post content -->
 			<div class="notebody">
 				{% if page.categories contains 'videos' and page.youtubeurl %}
-					<p><iframe width="662" height="330" src="https://www.youtube.com/embed/{{ page.youtubeurl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></p>
+					<p><iframe width="662" height="364" src="https://www.youtube.com/embed/{{ page.youtubeurl }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></p>
 					<p><a href="https://www.youtube.com/watch?v={{ page.youtubeurl }}">Watch this video on YouTube</a><p/>
 				{% endif %}
 
 				{% if page.categories contains 'videos' and page.bilibiliurl %}
 				
-					<p><iframe width="662" height="330" src="//player.bilibili.com/player.html?{{ page.bilibiliurl }}"" scrolling="yes" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></p>
+					<p><iframe width="662" height="364" src="//player.bilibili.com/player.html?{{ page.bilibiliurl }}"" scrolling="yes" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></p>
 					<p><a href="https://www.bilibili.com/video/av{{ page.bilibiliav }}">Watch this video on Bilibili</a><p/>
 				{% endif %}
 
