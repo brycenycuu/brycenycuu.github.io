@@ -5,7 +5,7 @@ title: Midsummer
 headname: VLOG 02
 bilibiliurl: aid=25375358&cid=43102785&page=1
 bilibiliav: 25375358
-intro: Undergraduate gradution film of class 2018 for School of Electrical and Information Engineering, [Beihang University](http://ev.buaa.edu.cn).
+intro: Undergraduate gradution film of class 2018 for School of Electrical and Information Engineering, <a href="http://ev.buaa.edu.cn">Beihang University</a>.
 ---
 
 Undergraduate gradution film of class 2018 for School of Electrical and Information Engineering, Beihang University.
