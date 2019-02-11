@@ -17,4 +17,4 @@ This website is originally designed by [Jonathan McGlone](https://github.com/jmc
   * Replace the `disqus_shortname` with your own DISQUS username, or
   * If you don't want commenting, remove or comment out the block of code entirely.
 
-Otherwise I will receive GA data and DISQUS comments from your website.
+Otherwise I will receive GA data and DISQUS comments from your website.1
