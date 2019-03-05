@@ -119,11 +119,12 @@ iframe {font-family: 'Merriweather', Georgia, Times; font-size: 16px;}
 .guide .notes h2 { font-size: 14px; }
 
 .btn-outline-primary:hover {
-	background-color: #5e8ac6;
+	background-color: #428bca;
 	color: white;
+	border-color: #357ebd;
 }
 
-.button {
+.btn {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
